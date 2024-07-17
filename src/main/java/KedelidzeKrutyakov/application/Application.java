@@ -6,6 +6,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableFeignClients(basePackages = "KedelidzeKrutyakov.application.api.feign")
 @SpringBootApplication
+@EnableFeignClients
 public class Application {
 
 	public static void main(String[] args) {
